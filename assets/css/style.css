@@ -458,6 +458,12 @@ section {
   font-size: 18px;
 }
 
+.about .icon-box .title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
 .about .icon-box .title a ,.about-2 .icon-box .title a {
   color: #343a40;
   transition: 0.3s;
