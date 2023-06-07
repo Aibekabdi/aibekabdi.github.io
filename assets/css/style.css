@@ -451,7 +451,7 @@ section {
   color: #fff;
 }
 
-.about .icon-box .title, .about-2 .icon-box  {
+.about .icon-box .title {
   margin-left: 85px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -459,6 +459,7 @@ section {
 }
 
 .about .icon-box .title {
+  margin-left: 10px;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
