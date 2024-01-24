@@ -1,0 +1,910 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.header-container {
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo {
+    max-width: 45%;
+    margin-top: 12%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.slogan {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #666;
+    display: block;
+    text-align: left;
+    width: 40%;
+}
+
+.apply-button {
+    display: block;
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+    background-color: #cc0000;
+}
+
+.header-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 35%;
+}
+
+/* Features Section */
+.features {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 20px;
+    background: #030303;
+    padding-bottom: 7%;
+}
+
+.features-h2 {
+    text-align: left;
+    font-size: 72px;
+    font-family: Spectral SC;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: 100;
+    line-height: 120%;
+}
+
+.feature-img {
+    position: absolute;
+    max-width: 35%;
+    margin-top: -17%;
+    margin-left: 10%;
+}
+
+.feature-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.feature-info p {
+    font-size: 1rem;
+}
+
+.feature-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.feature-name {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    flex-basis: 40%;
+    color: #FFFFFF;
+}
+
+.feature-description {
+    text-align: left;
+    font-size: 20px;
+    flex-basis: 60%;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+
+/*advantage section*/
+.advantage {
+    padding-bottom: 5%;
+}
+
+.advantage-img {
+    position: absolute;
+    max-width: 25%;
+    margin-top: -8%;
+    margin-left: 10%;
+}
+
+.burger-line-img {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -3%;
+}
+
+.advantage-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.advantage-h2 {
+    width: 50%;
+    margin-left: 40%;
+    font-family: Spectral SC;
+    font-size: 72px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding: 20px;
+}
+
+.card {
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+}
+
+
+/*Tarrifs section*/
+.tariffs-section {
+    text-align: center;
+    color: #fff;
+    background: #000;
+    padding: 40px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.tariffs-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tariffs-wrapper p {
+    font-size: 24px;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.tariffs-section h1 {
+    font-size: 52px;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+.tariff {
+    min-height: 100%;
+    background: #fff;
+    color: #000;
+    margin: 10px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.tariff-title {
+    color: #E53935;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.tariff-subtitle {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.tariff-price {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.tariff-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em 0;
+}
+
+.tariff-features li {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    position: relative;
+    padding-left: 1.5em;
+}
+
+.tariff-features li::before {
+    content: '•';
+    color: #E53935;
+    position: absolute;
+    left: 0;
+}
+
+.tariffs-container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: stretch
+}
+
+
+/*Footer section*/
+.footer{
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-footer {
+    min-height: 500px;
+    background: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer-img{
+    position: absolute;
+    width: 33%;
+    margin-top: 0%;
+    margin-left: 67%;
+}
+.contact-footer .container {
+    width: 60%;
+    
+    position: relative;
+}
+
+.contact-footer h2 {
+    margin-bottom: 20px;
+    font-size: 64px;
+    font-weight: 100;
+    font-family: Spectral SC;
+}
+
+.contact-footer .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-footer label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-footer input[type="text"],
+.contact-footer input[type="tel"],
+.contact-footer textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    resize: none;
+}
+
+.contact-footer .submit-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-footer .submit-btn:hover {
+    background: darkred;
+}
+
+.contact-footer form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    box-shadow: none;
+}
+
+/*ADAPTIVE*/
+
+@media (max-width: 425px) {
+    .header-container {
+        margin-left: 15%;
+    }
+
+    .logo {
+        max-width: 90%;
+        margin-top: 5%;
+    }
+
+    .slogan {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .feature-img,
+    .advantage-img,
+    .burger-line-img {
+        display: none;
+    }
+
+    .features-h2,
+    .advantage-h2 {
+        font-size: 2.5rem;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2%;
+    }
+
+    .feature,
+    .advantage {
+        flex-direction: column;
+    }
+
+    .feature-name,
+    .feature-description {
+        flex-basis: 100%;
+    }
+
+    .tariff {
+        width: 90%;
+    }
+
+    .tariffs-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .footer-wrapper {
+        width: 90%;
+    }
+
+    .footer-h1 {
+        font-size: 2rem;
+    }
+
+    .whatsapp-button {
+        font-size: 0.9rem;
+        padding: 12px 24px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .header-container {
+        margin-left: 5%;
+    }
+
+    .logo {
+        max-width: 80%;
+    }
+
+    .slogan {
+        width: 80%;
+        font-size: 1.3rem;
+    }
+
+    .features-h2,
+    .advantage-h2 {
+        font-size: 2.5rem;
+        margin-left: 40%;
+        margin-top: 3%;
+    }
+
+    .features-h2 {
+        font-size: 36px;
+        margin-left: 10%;
+        width: 70%;
+    }
+
+    .card {
+        width: 20%;
+        height: 50%;
+    }
+
+    .card h2 {
+        font-size: 12px;
+    }
+
+    .card p {
+        font-size: 10px
+    }
+
+    .feature,
+    .advantage {
+        flex-direction: column;
+    }
+
+    .feature-name,
+    .feature-description,
+    .tariff {
+        flex-basis: 100%;
+    }
+
+    .tariff {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 30%;
+        padding: 5px;
+        min-height: 100%;
+    }
+
+    .footer-wrapper {
+        width: 90%;
+    }
+
+    .burger-line-img {
+        width: 15%;
+    }
+    .container h2{
+        font-size:36px;
+    }
+    .footer-img{
+        width: 60%;
+        margin-left: 60%;
+    }
+    .container .form-group {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .tariff-title,
+    .tariff-subtitle,
+    .tariff-price,
+    .tariff-features li {
+        text-align: center;
+    }
+
+    .tariffs-wrapper h1 {
+        font-size: 24px;
+    }
+
+    .tariffs-wrapper p {
+        font-size: 12px;
+    }
+
+    .tariff-title {
+        font-size: 10px;
+    }
+
+    .tariff-features {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .feature-img{
+        width: 25%;
+        margin-top: -20%;
+    }
+    .features-h2{
+        font-size: 36px;
+    }
+    .advantage-h2{
+        font-size: 24px;
+        width: 40%;
+    }
+
+    .burger-line-img{
+        width: 10%;
+    }
+
+    .advantage-img{
+        width: 18%;
+    }
+
+    .card-container{
+        padding: 0px;
+    }
+
+    .card{
+        padding: 10px;
+        width: 30%;
+        min-height: 100%;
+        margin-top: 10%;
+    }
+
+    .card h2 {
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .header-container,
+    .feature-container,
+    .advantage-container,
+    .tariffs-wrapper,
+    .footer-wrapper {
+        width: 85%;
+    }
+
+    .logo {
+        max-width: 70%;
+        margin-top: 5%;
+    }
+
+    .slogan,
+    .features-h2 {
+        width: 75%;
+    }
+
+    .tariff {
+        width: 45%;
+    }
+
+    .footer-img{
+        width: 45%;
+    }
+     
+   
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    .header-container,
+    .feature-container,
+    .advantage-container,
+    .tariffs-wrapper,
+    .footer-wrapper {
+        width: 80%;
+    }
+
+    .features-h2,
+    .advantage-h2 {
+        font-size: 4rem;
+    }
+
+    .tariff {
+        width: 30%;
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    .footer-img{
+        width: 40%;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 2562px) {
+    .feature-img{
+        width: 25%;
+        margin-top: -15%;
+    }
+
+    .slogan{
+        font-size: 48px;
+    }
+
+    .apply-button{
+        font-size: 24px;
+    }
+
+    .feature-name{
+        font-size: 32px;
+    }
+
+    .feature-description{
+        font-size: 32px;
+    }
+    .features-h2,
+    .advantage-h2 {
+        font-size: 5rem;
+    }
+
+    .tariff {
+        width: 25%;
+    }
+
+    .card {
+        width: 25%;
+    }
+
+    .tariff {
+        margin-left: 5%;
+    }
+
+    .tariffs-wrapper h1 {
+        font-size: 72px;
+    }
+
+    .tariffs-wrapper p {
+        font-size: 36px;
+    }
+
+    .tariff-title {
+        font-size: 30px;
+    }
+
+    .tariff-features {
+        font-size: 30px;
+    }
+    .footer-img{
+        position: absolute;
+        width: 18%;
+        margin-top: 0%;
+        margin-left: 78%;
+    }
+
+    .container{
+        margin-left: 20%;
+    }
+    .container h2{
+        font-size: 72px;
+    }
+
+    .footer-img{
+        width: 20%;
+        margin-left: 83%;
+    }
+
+    .container h2{
+        font-size: 96px;
+    }
+
+
+    .form-group input::placeholder, textarea::placeholder{
+        font-size: 24px;
+    }
+
+    .form-group,
+    .submit-btn{
+        font-size: 24px;
+    }
+
+    .footer-img{
+        width: 30%;
+    }
+}
+
+
+
+
+/* Mobile styles */
+@media (max-width: 425px) {
+    .header-container {
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .logo,
+    .slogan,
+    .apply-button,
+    .features-h2,
+    .feature-img,
+    .feature-name,
+    .feature-description,
+    .advantage-h2,
+    .advantage-img,
+    .card,
+    .tariff,
+    .footer-h1 {
+        width: 100%;
+        max-width: none;
+    }
+
+    .advantage-h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+    }
+    .card p {
+        font-size: 6px;
+    }
+
+    .card h2 {
+        font-size: 8px;
+    }
+
+    .logo {
+        margin-top: 10%;
+    }
+
+    .slogan {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .apply-button {
+        font-size: 1rem;
+        padding: 8px 16px;
+        margin: 0 auto;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    /* Features Section */
+    .features {
+        padding: 20px;
+    }
+
+    .features-h2 {
+        font-size: 28px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .feature-img {
+        display: none;
+    }
+
+    .feature-container,
+    .advantage-container,
+    .card-container,
+    .tariffs-wrapper,
+    .footer-wrapper {
+        width: auto;
+        padding: 0 15px;
+    }
+
+    .feature,
+    .advantage,
+    .tariffs-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-name,
+    .feature-description {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tariff {
+        margin: 0 auto 20px;
+    }
+
+    .tariff-title,
+    .tariff-subtitle,
+    .tariff-price,
+    .tariff-features li {
+        text-align: center;
+    }
+
+    .footer-h1 {
+        font-size: 1.8em;
+    }
+
+    .feature-container,
+    .advantage-container,
+    .card-container,
+    .tariffs-wrapper,
+    .footer-wrapper {
+        width: auto;
+        padding: 0 15px;
+    }
+
+    .feature,
+    .advantage,
+    .tariffs-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-name,
+    .feature-description {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tariff {
+        margin: 0 auto 20px;
+    }
+
+    .tariff-title,
+    .tariff-subtitle,
+    .tariff-price,
+    .tariff-features li {
+        text-align: center;
+    }
+
+    .tariffs-wrapper h1 {
+        font-size: 24px;
+    }
+
+    .tariffs-wrapper p {
+        font-size: 12px;
+    }
+
+    .tariff-title {
+        font-size: 10px;
+    }
+
+    .tariff-features {
+        font-size: 10px;
+    }
+
+    .footer-h1 {
+        font-size: 1.8em;
+    }
+
+    .footer-img{
+        width: 80%;
+        margin-top: 25%;
+    }
+    .container {
+        margin-left: 5%;
+    }
+    .container h2{
+        font-size: 24px;
+        margin-left: 4%;
+    }
+}
